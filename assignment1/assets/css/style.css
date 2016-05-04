@@ -162,7 +162,7 @@ header {
 #footer p {
 	padding-top: 25px;
 	font-size: xx-small;
-	font color: #777777;
+	font color: #ffffff;
 	text-align: center;
 } 
 
@@ -223,7 +223,7 @@ header {
 
 #portfolio {
 	float: left;
-	margin: 35px 150px 0px 129px;
+	margin: 35px 150px 30px 129px;
 	border: 1px solid #dddddd; 
 	height: 520px;
 	width: 425px;
@@ -294,6 +294,11 @@ header {
 		margin-left: 0px;
 	}
 
+	.header section {
+		width: 0px;
+		display: inline;
+	}
+
 	#main-content {
 		width: 255px;
 		height: 672px;
@@ -302,6 +307,28 @@ header {
 
 	#main-content img {
 		width: 80%;
+	}
+
+	#portfolio {
+		height: 865px;
+		width: 255px;
+		margin-bottom: 35px;
+	}
+
+	.left-row {
+		margin-left: 18px;
+	}
+
+	.right-row {
+		margin-left: 36px;
+	}
+
+	.left_pic {
+		margin-left: 35px;
+	}
+
+	.right_pic {
+		margin-left: 36px;
 	}
 }
 
@@ -318,6 +345,11 @@ header {
 
 	.header ul {
 		margin-left: 135px;
+	}
+
+	.header section {
+		width: 0px;
+		display: inline;
 	}
 
 	#main-content {
@@ -338,6 +370,43 @@ header {
 		width: 710px;
 	}
 
+	#portfolio {
+		height: 715px;
+		width: 710px;
+		margin: 0px;
+		margin-left: 22px;
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+
+	#portfolio img {
+		margin-right: 58px;
+	}
+
+	.left-row {
+		width: 245px;
+		margin-left: 38px;
+	}
+
+	.right-row {
+		width: 245px;
+		margin-left: 38px;
+	}
+
+	.right_pic {
+		width: 245px;
+		margin-left: 400px;
+	}
+
+	.left_pic {
+		width: 245px;
+		margin-left: 55px;
+	}
+
+
+
+
+
 }
 
 @media screen and (max-width: 640px) {
@@ -345,22 +414,92 @@ header {
 		width: 100%;
 	}
 
+	.header {
+		position: static;
+	}
+
 	.header h1 {
-		width: 365px;
-		margin-left: 0px;
+		text-align: center;
+		margin-left: -10px;
+		width: 640px;
+		margin: 0px;
 	}
 
 	.header section {
 		height: 64px;
+		width: 640px;
 		margin-top: 73px;
+		position: static;
 		background-color: white;
 	}
 
 	.header ul {
-		margin-left: 80px;
+		background-color: white;
+		width: 680px;
+		margin: 0px;
+		margin-left: -62px;
+		font-size: medium;
+		text-align: center;	
 	}
 
+	.header li {
+		padding-left: 65px;
+		margin-left: 10px;
+	}
 
+	.header span {
+		padding-left: 55px;
+	}
+
+	#main-content {
+		width: 580px;
+		height: 700px;
+		margin: 0px;
+		margin-left: 20px;
+		margin-top: 20px;
+	}
+
+	#main-content img {
+		width: 78%;
+		height: 57%;
+		margin-left: 67px;
+	}
+
+	.sidebar {
+		width: 580px;
+		margin: 0px;
+		margin-top: 20px;
+		margin-left: 20px;
+		margin-bottom: 35px;
+	}
+
+	#portfolio {
+		width: 581px;
+		height: 2072px;
+		margin-left: 19px;
+	}
+
+	.left-row {
+		height: 375px;
+		width: 500px;
+		margin-left: 22px;
+	}
+
+	.right-row {
+		height: 375px;
+		width: 500px;
+		margin-left: 39px;
+	}
+
+	.left_pic {
+		width: 500px;
+		margin-left: 39px;
+	}
+
+	.right_pic {
+		width: 500px;
+		margin-left: 39px;
+	}
 
 }
 
