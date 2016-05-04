@@ -1,80 +1,54 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<!-- Latest compiled and minified CSS -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 		<title>About</title>
 	</head>
 	<body>
-		<section class="container">
-			<section class="row">
-				<header class="header">
-					<section class="col-md-4 col-md-offset-1">
-						<h1>Roy Hinojosa</h1>
-					</section>
-					<!--Displayed the ul as inline-->
-					<section id="ul-port" class="col-md-7">
-						<ul>
-							<li><a href="#">About</a><span>|</span></li>
-							<li><a href="portfolio.html">Portfolio</a><span>|</span></li>
-							<li><a href="contact.html">Contact</a></li>
-						</ul>
-					</section>
-				</header>
-			</section>
-		</section>
+		<header class="header">
+	<head>
+			<h1>Roy Hinojosa</h1>
+			<!--Displayed the ul as inline-->
+			<section>
+				<ul>
+					<li><a href="#">About</a><span>|</span></li>
+					<li><a href="portfolio.html">Portfolio</a><span>|</span</li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</section>	
+		</header>
 		<!--Wrapped the main body in a container-->
-		<section class="container">
-			<section class="row">
-				<section class="col-md-7 col-md-offset-1">
-					<section id="main-content">
-						<section class="row">
-							<section class="col-md-12">
-								<h2>About Me</h2>
-							</section>
-						<!--Made a division between text and content-->
-						</section>
-						<section class="row">
-							<section class="col-md-12">
-								<div id="gray-bar"></div>
-							</section>
-						</section>
-						<section class="row">
-							<section class="col-md-12">
-								<img class="pull-left" src="assets/images/roy_photo.jpg" alt="Roy's photo">
-								<p>For the past five years, I have taught myself how to code through various means through classes at UT Austin, codeacademy.com, and the UT Austin Boot Camp.  Coding is always a challenge, and I love that there is always something new to learn.  It keeps me on my toes, and I enjoy solving problems. <br>
-								In addition to coding, I love to play competetive skee ball on my off time. Also, I love to cook and play disc golf on the weekends.</p>
-							</section>
-						</section>
-					</section>
-				</section>
-				<section class="col-md-3 col-md-offset-1">
-					<section class="sidebar">
-						<h3>Connect With Me</h3>
-						<!--Division between text and content-->
-						<div class="small-gray-bar">
-						</div>
-						<ul>
-							<li><a href="http://www.github.com/rhino15"><img src="assets/images/github_icon.png" alt="github logo"></a></li>
-							<li><a href="https://www.linkedin.com/in/roy-hinojosa-41a06159"><img src="assets/images/linkedin_icon.png" alt="linkedin logo"></a></li>
-							<li><img src="assets/images/rss_icon.png" alt="rss logo"></li>
-						</ul>
-					</section>
-				</section>
+		<div class="container">
+			<section id="main-content">
+				<h2>About Me</h2>
+				<!--Made a division between text and content-->
+				<div id="gray-bar">
+				</div>
+				<img src="assets/images/roy_photo.jpg" alt="Roy's photo">
+				<div>
+					<p>For the past five years, I have taught myself how to code through various means through classes at UT Austin, codeacademy.com, and the UT Austin Boot Camp.  Coding is always a challenge, and I love that there is always something new to learn.  It keeps me on my toes, and I enjoy solving problems. <br>
+					In addition to coding, I love to play competetive skee ball on my off time. Also, I love to cook and play disc golf on the weekends.</p>
+				</div>
 			</section>
-		</section>
-
-		<section class="container">
-			<section class="row">
-				<section class="col-md-12">
-					<div id="green-bar"></div>
-					<footer id="footer">
-						<p>&#169; Copyright 2016 Roy Hinojosa</p>
-					</footer>
-				</section>
+			<section class="sidebar">
+				<h3>Connect With Me</h3>
+				<!--Division between text and content-->
+				<div class="small-gray-bar">
+				</div>
+				<ul>
+					<li><a href="http://www.github.com/rhino15"><img src="assets/images/github_icon.png" alt="github logo"></a></li>
+					<li><a href="https://www.linkedin.com/in/roy-hinojosa-41a06159"><img src="assets/images/linkedin_icon.png" alt="linkedin logo"></a></li>
+					<li><img src="assets/images/rss_icon.png" alt="rss logo"></li>
+				</ul>
 			</section>
-		</section>
+		</div>
+		<!--green bar above the footer-->
+		<!--Tried to make it stick, needs re-working-->
+		<footer id="footer">
+			<div id="green-bar"></div>
+			<p>&#169; Copyright 2016 Roy Hinojosa</p>
+		</footer>
 	</body>
 </html>
