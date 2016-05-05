@@ -13,7 +13,6 @@ body {
   position: absolute;
   bottom: 0;
   width: 100%;
-  margin-left: -105px;
   /* Set the fixed height of the footer here */
   height: 60px;
   background-color: black;
