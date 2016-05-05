@@ -460,7 +460,7 @@ header {
 
 	.header ul {
 		background-color: white;
-		width: 680px;
+		width: 701px;
 		margin: 0px;
 		margin-left: -62px;
 		font-size: medium;
@@ -480,7 +480,7 @@ header {
 		width: 580px;
 		height: 700px;
 		margin: 0px;
-		margin-left: 20px;
+		margin-left: 31px;
 		margin-top: 20px;
 	}
 
@@ -494,14 +494,14 @@ header {
 		width: 580px;
 		margin: 0px;
 		margin-top: 20px;
-		margin-left: 20px;
+		margin-left: 31px;
 		margin-bottom: 35px;
 	}
 
 	#portfolio {
 		width: 581px;
 		height: 2072px;
-		margin-left: 19px;
+		margin-left: 31px;
 	}
 
 	.left-row {
@@ -528,6 +528,7 @@ header {
 
 	#contact {
 		width: 577px;
+		margin-left: 31px;
 	}
 
 	#contact input {
