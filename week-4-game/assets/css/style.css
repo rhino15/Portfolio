@@ -1,0 +1,37 @@
+@font-face {
+	font-family: 'southPark';
+	src: url('../images/southpark.ttf') format('truetype');
+}
+
+body {
+	font-family: 'southPark';
+	background-color: black;
+	background: url(../../assets/images/spbcg.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	
+}
+
+img {
+	height: 140px;
+	width: 155px;
+}
+
+#title {
+	font-size: 50px;
+	background-color: #ffffff;
+}
+
+#yourchar {
+	background-color: #ffffff;
+}
+
+.image {
+	text-align: center;
+	background-color: #ffffff;
+	border: 3px solid green;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
