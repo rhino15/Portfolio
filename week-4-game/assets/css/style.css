@@ -14,6 +14,10 @@ body {
 	
 }
 
+.bcgWhite {
+	background-color: #ffffff;
+}
+
 img {
 	height: 140px;
 	width: 155px;
@@ -21,11 +25,6 @@ img {
 
 #title {
 	font-size: 50px;
-	background-color: #ffffff;
-}
-
-#yourchar {
-	background-color: #ffffff;
 }
 
 .image {
@@ -34,4 +33,12 @@ img {
 	border: 3px solid green;
 	padding-top: 5px;
 	padding-bottom: 5px;
+}
+
+p {
+	font-size: 15px;
+}
+
+.villains {
+	background-color: red;
 }
