@@ -48,6 +48,7 @@ $( document ).ready(function() {
 		captureImage = $(this).detach();
 		$(this).addClass("hero");
 		(captureImage).appendTo("#pickedCharacter");
+		$(".hero").off("click");
 		hasPickedCharacter = true;
 		if (hasPickedCharacter) {
 			$(".image").siblings().addClass("villains");
