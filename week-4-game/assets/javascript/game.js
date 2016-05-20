@@ -44,15 +44,12 @@ $( document ).ready(function() {
 	hpDisplay("#randy", randyData.randy.hp);
 
 	var captureImage;
-	$(".image").click(function() {
+	$(".image").on('click', function() {
 		captureImage = $(this).detach();
 		$(this).addClass("hero");
 		(captureImage).appendTo("#pickedCharacter");
 		$(".hero").off("click");
-		hasPickedCharacter = true;
-		if (hasPickedCharacter) {
-			$(".image").siblings().addClass("villains");
-			$(".villains").detach().appendTo("#enemies");
-		}
+		$(".image").siblings().addClass("villains");
+		$(".villains").detach().appendTo("#enemies");		
 	});
 });
