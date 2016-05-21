@@ -70,7 +70,8 @@ $( document ).ready(function() {
 		updateValues();
 		if (enemyData.hp <= 0) {
 			console.log(this);
-			$("#defender").remove();
+			$("#defender").hide();
+			
 		}
 
 	});
