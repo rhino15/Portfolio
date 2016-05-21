@@ -42,3 +42,8 @@ p {
 .villains {
 	background-color: red;
 }
+
+#attack {
+	margin-top: 20px;
+	height: 60px;
+}

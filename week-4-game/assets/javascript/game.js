@@ -3,6 +3,7 @@
 var heroAttack = 0;
 var heroHealth = 0;
 var attackCounter = 0;
+var enemyDivId = "";
 var villainAttack = 0;
 var villainHealth = 0;
 var heroClicked = false;
@@ -50,6 +51,7 @@ $( document ).ready(function() {
 			// attach to villain 
 			$("#defender").append(this);
 			enemyData = $(this).data();
+			enemyDivId = "#" + enemyData.divId;
 
 		} else { 
 			// attach to hero 
@@ -68,9 +70,8 @@ $( document ).ready(function() {
 		enemyData.hp -= heroData.ap;
 		heroData.ap += attackCounter;
 		updateValues();
-		if (enemyData.hp <= 0) {
-			console.log(this);
-			$("#defender").hide();
+		if (enemyData.hp <= 0) {;
+			$(enemyDivId).hide();
 			
 		}
 
