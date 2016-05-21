@@ -59,6 +59,7 @@ $( document ).ready(function() {
 			$(".characterList .character").addClass("villains");
 			heroData = $(this).data();
 			heroClicked = true;
+			$("#" + heroData.divId).off("click");
 			attackCounter = heroData.ap;
 		}
 		updateValues();
@@ -74,6 +75,7 @@ $( document ).ready(function() {
 			$(enemyDivId).hide();
 			
 		}
+
 
 	});
 });
