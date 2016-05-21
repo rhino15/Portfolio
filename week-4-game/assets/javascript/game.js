@@ -50,9 +50,6 @@ $( document ).ready(function() {
 			// attach to villain 
 			$("#defender").append(this);
 			enemyData = $(this).data();
-			if (enemyData.hp <= 0) {
-				$(this).remove();
-			}
 
 		} else { 
 			// attach to hero 
@@ -71,6 +68,10 @@ $( document ).ready(function() {
 		enemyData.hp -= heroData.ap;
 		heroData.ap += attackCounter;
 		updateValues();
+		if (enemyData.hp <= 0) {
+			console.log(this);
+			$("#defender").remove();
+		}
 
 	});
 });
