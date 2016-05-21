@@ -18,11 +18,19 @@
 			</section>
 			<!-- Images for characters -->
 			<section class="row">
-				<section class="images col-md-12">
-					<div id="cartman" class="col-md-2 image"><img src="assets/images/cartman.jpg"></div>
-					<div id="kenny" class="col-md-2 image"><img src="assets/images/kenny.jpg"></div>
-					<div id="mrhat" class="col-md-2 image"><img src="assets/images/mrhat.jpg"></div>
-					<div id="randy" class="col-md-2 image"><img src="assets/images/randy.jpg"></div>
+				<section class="characterList col-md-12">
+					<div id="cartman" class="col-md-2 character" value=0><img src="assets/images/cartman.jpg">
+						<div id="cartmanHp"></div>
+					</div>
+					<div id="kenny" class="col-md-2 character" value=1><img src="assets/images/kenny.jpg">
+						<div id="kennyHp"></div>
+					</div>
+					<div id="mrhat" class="col-md-2 character" value=2><img src="assets/images/mrhat.jpg">
+						<div id="mrhatHp"></div>
+					</div>
+					<div id="randy" class="col-md-2 character" value=3><img src="assets/images/randy.jpg">
+						<div id="randyHp"></div>
+					</div>
 				</section>
 			</section>
 
@@ -31,15 +39,8 @@
 			</section>
 				<section id="pickedCharacter" class="row"></section>
 
-			<section class="row">
-				<h2 class="bcgWhite pull-left">Enemies Available to Attack</h2>
-			</section>
-			<section id ="enemies" class="row">
-
-			</section>
-			<section class="row">
-				<h2 class="bcgWhite pull-left">Fight Section</h2>
-			</section>
+			<button id="attack">Attack</button>
+			
 			<section class="row">
 				<h2 class="bcgWhite pull-left">Defender</h2>
 			</section>

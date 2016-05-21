@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+		/*var files = ["pavans_first_birthday.mov",
+"owens_asleep_at_the_computer.jpg",
+"michael_fights_a_polar_bear.mp4",
+"nate_road_rage.avi",
+"ruby_skydiving.jpeg",
+"ken_getting_his_black_belt.png",
+"dan_winning_underground_street_race.mov",
+"its_hard_to_come_up_with_file_names.gif",
+"seriously_this_is_taking_too_long.mpg",
+"i_wonder_how_many_of_these_i_should_have.png",
+"probably_a_few_more.avi",
+"nutmeg_is_clawing_my_sneakers_again.mp4",
+"cat_i_will_destroy_you.gif",
+"i_wish_we_had_a_dog.jpeg",
+"stop_looking_at_me_like_that_nutmeg.mpeg",
+"aww_i_cant_hate_you.png",
+"omg_my_sneakers.avi",
+"cat_you_are_the_worst.mp4"
+];
+
+
+
+var imageArray = [];
+var vidArray = [];
+
+
+var arrayCheck = "";
+for (var i = 0; i < files.length; i++) {
+	arrayCheck = files[i];
+	var index = arrayCheck.indexOf(".");
+	var lastChars = arrayCheck.substring(index + 1, arrayCheck.length);
+	if (lastChars === "mov" || lastChars === "avi" || lastChars === "mpeg" || lastChars === "mp4" || lastChars === "mpg") {
+		vidArray.push(arrayCheck);
+	} else {
+		imageArray.push(arrayCheck);
+	}
+			
+}
+document.write(vidArray);
+document.write(imageArray);*/
+		/*function primeNumber(num) {
+			for (var i = 2; i < num; i++) {
+				if (num % i === 0) {
+					return false;
+				}
+			}
+			return num > 1;
+
+		}
+
+		for (var i = 0; i < 1000000; i++) {
+			if (primeNumber(i)) {
+				console.log(i);
+			}
+		}*/
+
+		function textCalculator(str) {
+			var splits = str.split(" ");
+			splits[0];
+			switch(splits[0]) {
+				case "Add" : document.write(parseInt(splits[1]) + parseInt(splits[3]));
+				break;
+
+				case "Subtract" : document.write(parseInt(splits[3]) - splits[1]);
+				break;
+
+				case "Divide" : document.write(parseInt(splits[3]) / splits[1])
+			}
+			
+		}
+
+		//textCalculator("Add 2 and 4");
+
+		function fizzBuzz(num) {
+			var fizzBuzz = "";
+			for (var i = 1; i < num; i++) {
+				if (i % 15 === 0) {
+					fizzBuzz = "FizzBuzz";
+				} else if (i % 3 === 0) {
+					fizzBuzz = "Fizz";
+				} else if (i % 5 === 0) {
+					fizzBuzz = "Buzz";
+				} else {
+					fizzBuzz = i;
+				}
+				console.log(fizzBuzz);
+			}
+		}
+
+		fizzBuzz(100);
+
+
+	</script>
+
+</body>
+</html>
