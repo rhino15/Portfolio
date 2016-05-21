@@ -36,6 +36,10 @@ function updateValues() {
 	hpDisplay("#randyHp", randyData.hp);
 }
 
+function reset() {
+	
+}
+
 
 //jquery functions for click events and assigning
 $( document ).ready(function() {
@@ -75,7 +79,6 @@ $( document ).ready(function() {
 			$(enemyDivId).hide();
 			
 		}
-
 
 	});
 });
